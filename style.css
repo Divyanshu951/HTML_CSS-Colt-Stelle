@@ -1,33 +1,73 @@
+/* Universal selector  
+* {
+  border: 1px solid green;
+  border-radius: 5px;
+
+  CSS reset
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
+
+/* Element selector  
 h1 {
-  text-decoration: #ff00004d underline double 2px;
-}
-
-#cast {
-  list-style-type: "🚀 ";
-  list-style-position: inside;
-}
-
-#cast li {
-  margin-top: 4px;
-}
-
-/* use this to style link  */
-
-/* FOLLOW LVHA SEQUENCE */
-a:link {
-  color: olive;
-  text-decoration: none;
-}
-
-a:visited {
   color: orangered;
 }
+*/
 
-a:hover {
-  color: magenta;
-  text-decoration: underline;
+/* Class selector
+.score {
+  color: blue;
+} */
+
+/* id selector
+#toc {
+  color: gray;
+} */
+
+/* Attribute selector */
+/* tag_name/cl/id_name[attribute_name="value"] */
+/* a[href^="#"] {
+  color: red;
 }
 
-a:active {
-  color: black;
+a[href] {
+  color: darkblue;
+}
+
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Merriweather;
+}
+
+/* 
+
+" " -> Desendant child - Ex: all the P tags in the whole block [Descendant = “all kids, grandkids, great-grandkids…”]
+
+>   -> Only direct children Ex: Only the P which are the direct children [Child = “only my kids”]
+
+Adjacent sibling (+) → immediately after
+
+General sibling (~) → all following siblings
+
+
+*/
+
+h2.score {
+  border: 2px solid red;
+  border-radius: 4px;
+  padding: 10px;
+
+  width: 500px;
+  height: 60px;
+}
+
+.big {
+  border: 5px solid violet;
 }
