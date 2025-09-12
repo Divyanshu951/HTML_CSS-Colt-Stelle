@@ -1,0 +1,33 @@
+h1 {
+  text-decoration: #ff00004d underline double 2px;
+}
+
+#cast {
+  list-style-type: "🚀 ";
+  list-style-position: inside;
+}
+
+#cast li {
+  margin-top: 4px;
+}
+
+/* use this to style link  */
+
+/* FOLLOW LVHA SEQUENCE */
+a:link {
+  color: olive;
+  text-decoration: none;
+}
+
+a:visited {
+  color: orangered;
+}
+
+a:hover {
+  color: magenta;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+}
