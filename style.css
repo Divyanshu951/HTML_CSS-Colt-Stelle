@@ -37,14 +37,14 @@ a[href] {
 
 */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
   font-family: Merriweather;
-}
+} */
 
 /* 
 
@@ -59,15 +59,31 @@ General sibling (~) → all following siblings
 
 */
 
-h2.score {
+h2 {
   border: 2px solid red;
   border-radius: 4px;
-  padding: 10px;
 
-  width: 500px;
-  height: 60px;
+  /* display: inline; */
+  /* padding: 10px;
+
+  width: 50%;
+  height: 50%; */
 }
 
-.big {
-  border: 5px solid violet;
+.rating {
+  /* border: 2px solid green;
+  border-radius: 4px;
+
+  padding: 20px;
+  margin: 30px; */
+  /* displ */
+}
+
+.rating {
+  display: inline-block;
+  width: 120px; /* ✅ works */
+  height: 60px; /* ✅ works */
+  margin: 10px; /* ✅ all sides work */
+  padding: 15px; /* ✅ all sides work */
+  border: 2px solid red;
 }
