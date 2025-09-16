@@ -59,31 +59,25 @@ General sibling (~) → all following siblings
 
 */
 
-h2 {
+.box {
+  width: 200px;
+  height: 200px;
   border: 2px solid red;
-  border-radius: 4px;
+  /* border-radius: 0 50% 50% 50%; */
 
-  /* display: inline; */
-  /* padding: 10px;
+  margin: 0 auto;
 
-  width: 50%;
-  height: 50%; */
-}
+  font-size: 24px;
+  font-weight: 800;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* background-color: cadetblue; */
+  /* color: #fff; */
 
-.rating {
-  /* border: 2px solid green;
-  border-radius: 4px;
-
-  padding: 20px;
-  margin: 30px; */
-  /* displ */
-}
-
-.rating {
-  display: inline-block;
-  width: 120px; /* ✅ works */
-  height: 60px; /* ✅ works */
-  margin: 10px; /* ✅ all sides work */
-  padding: 15px; /* ✅ all sides work */
-  border: 2px solid red;
+  /* box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.2); */
+  /* overflow: scroll; /* to add scroll bar if content exceeds the box size */
+  /* overflow: hidden; /* to hide the content if it exceeds the box size */
+  /* overflow: auto;  to add scroll bar only when content exceeds the box size */
+  overflow-y: scroll;
 }
