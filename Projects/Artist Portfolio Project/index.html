@@ -108,6 +108,17 @@
 
         e.target.classList.add("active");
       });
+
+      document.addEventListener("scroll", function () {
+        // Distance scrolled from the top
+        let scrollTop = window.scrollY || document.documentElement.scrollTop;
+
+        // Distance scrolled from the left
+        let scrollLeft = window.scrollX || document.documentElement.scrollLeft;
+
+        console.log("Vertical scroll:", scrollTop);
+        console.log("Horizontal scroll:", scrollLeft);
+      });
     </script>
   </body>
 </html>

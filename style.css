@@ -59,25 +59,74 @@ General sibling (~) → all following siblings
 
 */
 
-.box {
-  width: 200px;
+/* .box { */
+/* width: 200px;
   height: 200px;
-  border: 2px solid red;
-  /* border-radius: 0 50% 50% 50%; */
+  border: 2px solid red; */
+/* border-radius: 0 50% 50% 50%; */
 
-  margin: 0 auto;
+/* margin: 0 auto;
 
   font-size: 24px;
-  font-weight: 800;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* background-color: cadetblue; */
-  /* color: #fff; */
+  font-weight: 800; */
+/* display: flex; */
+/* justify-content: center; */
+/* align-items: center; */
+/* background-color: cadetblue; */
+/* color: #fff; */
 
-  /* box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.2); */
-  /* overflow: scroll; /* to add scroll bar if content exceeds the box size */
-  /* overflow: hidden; /* to hide the content if it exceeds the box size */
-  /* overflow: auto;  to add scroll bar only when content exceeds the box size */
-  overflow-y: scroll;
+/* box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.2); */
+/* overflow: scroll; /* to add scroll bar if content exceeds the box size */
+/* overflow: hidden; /* to hide the content if it exceeds the box size */
+/* overflow: auto;  to add scroll bar only when content exceeds the box size */
+/* overflow-y: scroll; */
+/* }
+
+.box:hover {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  background-color: red;
+} */
+
+/* p::before {
+  content: "🚀 ";
+}
+
+p::after {
+  content: "😶‍🌫️";
+}
+
+p::selection {
+  background: yellow;
+  color: black;
+}
+
+li::marker {
+  color: red;
+  font-size: 20px;
+}
+
+input::placeholder {
+  color: gray;
+  font-style: italic;
+}
+
+button:hover::after {
+  content: " 👋";
+} */
+
+.box {
+  border: 3px solid gray;
+}
+
+p {
+  color: red;
+}
+
+.featured span {
+  color: green;
+}
+
+#unique {
+  color: blue;
 }
