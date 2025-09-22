@@ -142,3 +142,21 @@ const {
 // userLogin("Alice"); // Duplicate won't be added
 
 // console.log(activeUsers.size); // Output: 2
+
+const map = new Map([
+  ["name", "ajay"],
+  ["age", 23],
+  ["address", "Mallampet"],
+]);
+
+// map.forEach((value, key) => {
+//   console.log(`${key} -> ${value}`);
+// });
+
+const fruits = ["apple", "banana", "apple"];
+const countMap = new Map();
+
+for (const fruit of fruits) {
+  countMap.set(fruit, (countMap.get(fruit) || 0) + 1);
+}
+console.log(countMap); // Map(2) { 'apple' => 2, 'banana' => 1 }
